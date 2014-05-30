@@ -1,0 +1,39 @@
+---
+layout: base
+title: Rocket Manufacturing
+subtitle: 2013-2014 MME Capstone Team at Portland State University
+---
+
+Sponsors
+
+Team
+
+Videos
+
+Presentations
+
+Process Docs
+
+Overall 2014 deliverables
+
+- 3" rocket proof of concept
+- 6" final rocket (LV3)
+- strain gauge boards
+- curing oven
+- layup table
+
+Rocket Parts (design, build, test, result) 
+
+- nose
+- std modules
+- motor module
+- std rings
+- MTR, MRR, and other rings
+- electronics carrier
+
+Design Log 
+
+{% for post in site.posts %}
+<a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date:"%B %Y %d" }} | {{ post.title }}</a>
+{% endfor %}
+

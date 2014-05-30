@@ -1,0 +1,17 @@
+safe:        false
+port:        4000
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+future:      true
+lsi:         false
+pygments:    true
+permalink:   /:year/:month/:title
+
+title: Rocket Manufacturing
+description: MME Capstone at Portland State University in cooperation with the Portland State Aerospace Society.
+base: http://psas.github.io/mme-capstone/
+
+exclude: [drafts,README.md,Makefile,make_index.py,scripts]

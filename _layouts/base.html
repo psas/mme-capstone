@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ page.description }}">
+
+    {% if page.splashpage %}
+      <title>{{ site.title }}</title>
+    {% else %}
+      <title>{{ page.title }} | {{ site.title }}</title>
+    {% endif %}
+
+    {% if page.mathjax %}
+      <script type="text/javascript"
+         src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+    {% endif %}
+
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Belleza">
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="title">
+        <a href="/">{{ site.title }}</a> <span style="font-size: 0.6em"> at Portland State University</span>
+      </div>
+      <div class="desc">{{ site.description }}</div>
+      <div style="clear:both;"></div>
+    </header>
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Sponsors</a></li>
+          <li><a href="#">Design Log</a></li>
+          <li><a href="#">Videos</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        {{ content }}
+      </article>
+
+    </section>
+
+  </body>
+</html>
+
