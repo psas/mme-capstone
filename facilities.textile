@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Facilities
-permalink: /mme-capstone/facilities/
+permalink: /facilities/
 ---
 
 <div style="width: 350px; float:left;">
