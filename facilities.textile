@@ -1,0 +1,18 @@
+---
+layout: base
+title: Facilities
+permalink: /facilities/
+---
+
+<div style="width: 350px; float:left;">
+  <h5><strong>Curing Oven</strong></h5>
+
+  <img width="100%" src="/images/curing-oven/1.png">
+</div>
+
+<div style="width: 350px; float:right;">
+  <h5><strong>Layup Table</strong></h5>
+
+  <img width="100%" src="/images/layup-table/1.png">
+</div>
+

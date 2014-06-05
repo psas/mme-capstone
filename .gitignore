@@ -4,7 +4,9 @@
 # Jekyll cruft
 _site
 drafts
-images
+images/1
+images/2
+images/3
 
 # Dev cruft
 sources

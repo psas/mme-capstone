@@ -47,7 +47,6 @@ a:hover {
 ----------------------------------------------- */
 
 header {
-  width: 100%;
   margin: 0px auto;
   background-color:#6A7F10;
   background-size: 100%;
@@ -61,7 +60,7 @@ header .title {
   font-size: 2em;
   text-align:left;
   width: 800px;
-  margin: 0px auto 10px auto;
+  margin: 10px auto 0px auto;
 }
 
 header .desc {
@@ -74,7 +73,7 @@ header .desc {
 
 header a,
 header a:visited {
-  color: #c1aa87;
+  color: #75A319;
 	font-weight:bold;
 	text-decoration: none;
 }
@@ -87,15 +86,13 @@ header a:hover {
 ----------------------------------------------- */
 
 nav {
-  text-align: center;
+  text-align: left;
   padding: 0px;
   margin: 0;
-  color: #000;
-  border-bottom: 1px solid #696969;
 }
 
 nav ul {
-  text-align: center;
+  text-align: left;
   list-style: none;
   margin: 10px 0 10px 0;
   padding: 0px;
@@ -103,12 +100,13 @@ nav ul {
 
 nav li {
   display: inline;
+  margin: 0 10px 0 10px;
 }
 
 nav h4 {
   font-family: 'Belleza', serif;
   font-size: 1.1em;
-  text-align: center;
+  text-align: left;
   margin: 0 0 0px 0;
   padding: 0px;
   color: #000;
@@ -123,12 +121,18 @@ section {
   color: #000;
   clear: both;
   width: 800px;
-  background-color: #fff;
-  border: 1px solid #696969;
 }
 
 h2 {
   text-align: center;
+}
+
+h3 {
+  font-family: 'Belleza', sans-serif;
+  overflow: hidden;
+  text-align: center;
+  font-weight: heavy;
+  margin: 0 auto 10px auto;
 }
 
 /* an article contains the post content

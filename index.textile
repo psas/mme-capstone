@@ -1,39 +1,12 @@
 ---
 layout: base
 title: Rocket Manufacturing
-subtitle: 2013-2014 MME Capstone Team at Portland State University
 ---
 
-Sponsors
+Portland State Aerospace Society worked with a Mechanical and Materials Engineering capstone team to develop a prototype of the next generation carbon fiber Launch Vehicle 3. The team was fantastic and delivered us not only a modular rocket but also the fully documented manufacturing process, the layup mandrels, a curing oven, and a layup table. 
 
-Team
+The term ends the second week of June 2014 so check back for final deliverables, including rocket requirements, CAD files for all rocket parts, and instruction manuals for the manufacturing process.
 
-Videos
+<h5 style="margin-bottom: 20px;"><strong>Sponsors</strong></h5>
 
-Presentations
-
-Process Docs
-
-Overall 2014 deliverables
-
-- 3" rocket proof of concept
-- 6" final rocket (LV3)
-- strain gauge boards
-- curing oven
-- layup table
-
-Rocket Parts (design, build, test, result) 
-
-- nose
-- std modules
-- motor module
-- std rings
-- MTR, MRR, and other rings
-- electronics carrier
-
-Design Log 
-
-{% for post in site.posts %}
-<a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date:"%B %Y %d" }} | {{ post.title }}</a>
-{% endfor %}
-
+The team absolutely could not have done this project without the donation of advice, labor, and materials from the following companies:

@@ -26,23 +26,23 @@
 
   <body>
 
-    <header>
+    <header style="background-color: #000">
       <div class="title">
-        <a href="/">{{ site.title }}</a> <span style="font-size: 0.6em"> at Portland State University</span>
+        <div style="float: left; margin-right: 20px;"><a href="http://psas.github.io/"><img src="/images/psas_insignia.png"></a></div>
+        <div style="padding-top: 20px;"><a href="/">{{ site.title }}</a> <span style="font-size: 1em"> at Portland State University</span></div>
       </div>
-      <div class="desc">{{ site.description }}</div>
+      <div class="desc" style="margin-top: 2px; font-size: 1.3em;">
+        <nav><ul>
+          <li style="margin-left: 0px;"><a href="/">Home</a></li>
+          <li><a href="/lv3/">Launch Vehicle 3</a></li>
+          <li><a href="/facilities/">Facilities</a></li>
+          <li><a href="/development/">Development Team</a></li>
+        </ul></nav>
+      </div>
       <div style="clear:both;"></div>
     </header>
 
     <section>
-      <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Sponsors</a></li>
-          <li><a href="#">Design Log</a></li>
-          <li><a href="#">Videos</a></li>
-        </ul>
-      </nav>
 
       <article>
         {{ content }}

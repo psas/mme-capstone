@@ -1,0 +1,31 @@
+---
+layout: base
+title: Development Team
+permalink: /development/
+---
+
+<strong>Team</strong>
+
+<strong>Videos</strong>
+
+<strong>Presentations</strong>
+
+<strong>Process Docs</strong>
+
+<strong>Rocket Parts</strong> 
+
+- nose
+
+- electronics carrier
+
+- standard modules
+- motor module with fins
+- antenna module
+
+- standard rings
+- motor retaining ring
+- motor thrust ring
+
+<strong>Design Log</strong> 
+
+Nov - Dec - Jan - Feb - Mar - Apr - May - Jun
