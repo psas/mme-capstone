@@ -10,6 +10,8 @@ lsi:         false
 pygments:    true
 permalink:   /:year/:month/:title
 
+base: http://psas.github.io/mme-capstone
+
 title: Rocket Manufacturing
 description: MME Capstone at Portland State University in cooperation with the Portland State Aerospace Society.
 
