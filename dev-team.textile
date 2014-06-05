@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Development Team
-permalink: /development/
+permalink: /mme-capstone/development/
 ---
 
 <strong>Team</strong>

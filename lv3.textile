@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Launch Vehicle 3
-permalink: /lv3/
+permalink: /mme-capstone/lv3/
 ---
 
 Layup Instructions
